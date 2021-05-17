@@ -468,8 +468,8 @@ MonoBehaviour:
   - {fileID: 805505258}
   - {fileID: 1678677103}
   SkipOver:
-  - {fileID: 110352843}
   - {fileID: 1678677103}
+  - {fileID: 110352843}
   inputActions: {fileID: 921302974}
 --- !u!65 &921302978
 BoxCollider:
