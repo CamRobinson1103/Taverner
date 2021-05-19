@@ -11,6 +11,8 @@ public class InputBehavior : MonoBehaviour
     private PlayerMovementBehavior _movement;
     //Reference for the player controls.
     private PlayerControls _playerControls;
+    //
+    public float shootSpeed;
 
     private void Awake()
     {
@@ -21,7 +23,7 @@ public class InputBehavior : MonoBehaviour
     void Start()
     {
         _serve = GetComponent<ServeBehavior>();
-        _playerControls.Player.Shoot.performed += context => _serve.Shoot();
+        _playerControls.Player.Shoot.performed += context => _serve.Shoot(transform.forward * shootSpeed);
         _movement = GetComponent<PlayerMovementBehavior>();
         _playerControls.Player.Movement.performed += context => _movement.Move((int)context.ReadValue<float>());
     }

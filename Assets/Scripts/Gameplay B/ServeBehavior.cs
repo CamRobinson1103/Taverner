@@ -17,12 +17,13 @@ public class ServeBehavior : MonoBehaviour
         
     }
 
-    public void Shoot()
+    public void Shoot(Vector3 force)
     {
         //Sets _drink to instantiate the drink's gameobject at the server's position
         _drink = Instantiate(drink.gameObject, server.transform.position, server.transform.rotation);
         //Calls GetComponent for the _drink with a new ProjectileBehavior
         ProjectileBehavior moveDrink = _drink.GetComponent<ProjectileBehavior>();
+        moveDrink.rigidbody.AddForce(force, ForceMode.Impulse);
     }
 
     // Update is called once per frame
