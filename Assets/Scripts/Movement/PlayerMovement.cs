@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovementBehavior : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public Transform[] TeleportPoints = new Transform[4];
     public Transform[] SkipOver = new Transform[2];

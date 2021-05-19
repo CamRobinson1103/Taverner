@@ -3,33 +3,115 @@
     "maps": [
         {
             "name": "Player",
-            "id": "0d28a8eb-62a7-40d9-9b9e-10c9fbab5fd4",
+            "id": "9d7be975-6b5d-4de5-a3db-79b09093d26f",
             "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "9728595f-bfb0-4e75-80e4-d51ff0535277",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "SkipMovement",
+                    "type": "Button",
+                    "id": "a42a9e7b-d011-4769-9620-27e8c04a1b1e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
                 {
                     "name": "Shoot",
                     "type": "Button",
-                    "id": "ab989d65-cd4e-4ef7-8c25-df2b4f38bd86",
+                    "id": "8a5e74a5-222f-4653-94f1-d0e28501cd76",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "c464910e-aa58-4554-8f98-92aaf79273b3",
-                    "path": "<Mouse>/leftButton",
+                    "name": "Up/Down D-Pad",
+                    "id": "16746c5a-08e7-41e0-a6f4-8d41f75ede05",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Shoot",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a7d89631-3791-4ebd-83dc-08761030ff71",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "cd18849a-1ee2-469a-8677-72ce6bc9fada",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "904861a5-6603-4fe4-9f15-c38f73512224",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "Left/Right D-Pad",
+                    "id": "8131c803-63e2-4fde-8cb8-28b7cb55a53b",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipMovement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3b3abe99-df22-4a71-a0e0-abf45d607996",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "3513dff7-0dc9-4853-b9be-92f911b2ebc0",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
-                    "id": "6c759ab3-2cfa-4345-a92c-013d0e50d765",
-                    "path": "<Keyboard>/space",
+                    "id": "1f98f31f-4ea8-4204-8233-152a71628fce",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

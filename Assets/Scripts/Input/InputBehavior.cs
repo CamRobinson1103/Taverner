@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class InputBehavior : MonoBehaviour
 {
+    private PlayerMovement _move;
+    private PlayerMovement _skip;
     //Reference for the shooting, Serve behavior.
     private ServeBehavior _serve;
     //Reference for the player controls.
@@ -20,6 +22,10 @@ public class InputBehavior : MonoBehaviour
     {
         _serve = GetComponent<ServeBehavior>();
         _playerControls.Player.Shoot.performed += context => _serve.Shoot();
+        _move = GetComponent<PlayerMovement>();
+        _playerControls.Player.Movement.performed += context => _move.Movement((int)context.ReadValue<float>());
+        _skip = GetComponent<PlayerMovement>();
+        _playerControls.Player.SkipMovement.performed += context => _skip.MovementSkipping((int)context.ReadValue<float>());
     }
 
     public void OnEnable()
@@ -32,9 +38,5 @@ public class InputBehavior : MonoBehaviour
         _playerControls.Disable();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
 }

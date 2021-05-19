@@ -5,12 +5,12 @@ using UnityEngine;
 public class ProjectileBehavior : MonoBehaviour
 {
     public float speed;
-    public Rigidbody rigidbody;
+    public Rigidbody _rigidbody;
 
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
     private void OnTriggerEnter(Collider other)
