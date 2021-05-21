@@ -6,10 +6,7 @@ public class PlayerMovementBehavior : MonoBehaviour
 {
     //Array used to store the points the player can move to
     public Transform[] MovePoints = new Transform[4];
-    //The maximum amount of spaces the player can move
-    private int _moveMax = 4;
-    //The minimum amount of spaces the player can move
-    private int _moveMin = -1;
+    //Reference to the player's character controller
     public CharacterController characterController;
     //Iterator for the MovePoints array
     int i = 0;

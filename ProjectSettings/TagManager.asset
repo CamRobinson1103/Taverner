@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MovePoint
   - KillPlane
+  - Enemy
   layers:
   - Default
   - TransparentFX

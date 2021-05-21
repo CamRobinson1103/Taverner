@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ProjectileBehavior : MonoBehaviour
 {
+    //Reference to the projectile's rigidbody
     public Rigidbody rigidbody;
 
     // Start is called before the first frame update
@@ -16,6 +17,15 @@ public class ProjectileBehavior : MonoBehaviour
     {
         if (other.CompareTag("KillPlane"))
             Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
