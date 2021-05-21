@@ -35,7 +35,9 @@ public class ServeBehavior : MonoBehaviour
             _drink = Instantiate(drink.gameObject, server.transform.position, server.transform.rotation);
             //Calls GetComponent for the _drink with a new ProjectileBehavior
             ProjectileBehavior moveDrink = _drink.GetComponent<ProjectileBehavior>();
+            //Sets the velocity to the server's forward scaled by the firerate
             moveDrink.Velocity = transform.forward * shootSpeed;
+            //Adds 10 to the score board whenever a shot is called
             score.AddScore(10);
         }
     }
