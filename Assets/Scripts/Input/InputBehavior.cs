@@ -11,7 +11,7 @@ public class InputBehavior : MonoBehaviour
     private PlayerMovementBehavior _movement;
     //Reference for the player controls.
     private PlayerControls _playerControls;
-    //
+    //Used to control how fast the player's projectiles travel.
     public float shootSpeed;
 
     private void Awake()

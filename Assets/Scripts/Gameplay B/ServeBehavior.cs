@@ -23,6 +23,7 @@ public class ServeBehavior : MonoBehaviour
         _drink = Instantiate(drink.gameObject, server.transform.position, server.transform.rotation);
         //Calls GetComponent for the _drink with a new ProjectileBehavior
         ProjectileBehavior moveDrink = _drink.GetComponent<ProjectileBehavior>();
+        //Moves the projectile in a direction
         moveDrink.rigidbody.AddForce(force, ForceMode.Impulse);
     }
 
