@@ -7,6 +7,20 @@ public class ProjectileBehavior : MonoBehaviour
     //Reference to the projectile's rigidbody
     public Rigidbody rigidbody;
 
+    private Vector3 _velocity;
+
+    public Vector3 Velocity
+    {
+        get
+        {
+            return _velocity;
+        }
+        set
+        {
+            _velocity = value;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,8 +43,8 @@ public class ProjectileBehavior : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-
+        rigidbody.MovePosition(transform.position + _velocity * Time.deltaTime);
     }
 }

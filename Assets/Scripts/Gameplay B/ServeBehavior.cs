@@ -10,12 +10,15 @@ public class ServeBehavior : MonoBehaviour
     public ProjectileBehavior drink;
     //Reference to the drink's game object
     GameObject _drink;
-    //
+    //Variable used to decide the time between each bullet
     public float timeBetweenShots;
-    //
+    //Variable used to store the time plus the timeBetween shots
     private float nextShot;
-    //
+    //Reference to the GameManager
     public GameManagerBehavior score;
+    //The server's firerate
+    [SerializeField]
+    private float shootSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +26,7 @@ public class ServeBehavior : MonoBehaviour
         
     }
 
-    public void Shoot(Vector3 force)
+    public void Shoot()
     {
         if (Time.time > nextShot)
         {
@@ -32,8 +35,7 @@ public class ServeBehavior : MonoBehaviour
             _drink = Instantiate(drink.gameObject, server.transform.position, server.transform.rotation);
             //Calls GetComponent for the _drink with a new ProjectileBehavior
             ProjectileBehavior moveDrink = _drink.GetComponent<ProjectileBehavior>();
-            //Moves the projectile in a direction
-            moveDrink.rigidbody.AddForce(force, ForceMode.Impulse);
+            moveDrink.Velocity = transform.forward * shootSpeed;
             score.AddScore(10);
         }
     }

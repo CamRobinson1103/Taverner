@@ -399,6 +399,7 @@ MonoBehaviour:
   drink: {fileID: -4886364534449184157, guid: fc71ad9aefec646418a3e99cb62b8fa1, type: 3}
   timeBetweenShots: 0.5
   score: {fileID: 457224987}
+  shootSpeed: 5
 --- !u!136 &605541588
 CapsuleCollider:
   m_ObjectHideFlags: 0

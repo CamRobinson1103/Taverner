@@ -11,8 +11,6 @@ public class InputBehavior : MonoBehaviour
     private PlayerMovementBehavior _movement;
     //Reference for the player controls.
     private PlayerControls _playerControls;
-    //Used to control how fast the player's projectiles travel.
-    public float projectileSpeed;
 
     private void Awake()
     {
@@ -23,7 +21,7 @@ public class InputBehavior : MonoBehaviour
     void Start()
     {
         _serve = GetComponent<ServeBehavior>();
-        _playerControls.Player.Shoot.performed += context => _serve.Shoot(transform.forward * projectileSpeed);
+        _playerControls.Player.Shoot.performed += context => _serve.Shoot();
         _movement = GetComponent<PlayerMovementBehavior>();
         _playerControls.Player.Movement.performed += context => _movement.Move((int)context.ReadValue<float>());
     }
