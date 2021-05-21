@@ -13,11 +13,7 @@ public class ProjectileBehavior : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("KillPlane"))
-            Destroy(gameObject);
-    }
+
 
     // Update is called once per frame
     void Update()
