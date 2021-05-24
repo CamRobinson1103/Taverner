@@ -6,11 +6,13 @@ public class SlideBackBehavior : MonoBehaviour
 {
     public float SlideBack = 5;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider col)
     {
-        if (collision.gameObject)
+        if(col.gameObject.tag =="Mug")
         {
-            transform.position -= new Vector3(0, 0, SlideBack) * Time.deltaTime;
+            transform.position -= new Vector3(-SlideBack, 0, 0) * Time.deltaTime;
         }
     }
+    
 }
+
