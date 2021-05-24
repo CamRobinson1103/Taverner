@@ -12,7 +12,6 @@ public class TankMovement : MonoBehaviour
     {
         if (other.CompareTag("Drink"))
             Destroy(other.gameObject);
-            //gameObject.transform.parent = other.gameObject.transform;
             transform.position -= new Vector3(0, 0, -TankSlideBack) * Time.deltaTime;
     }
 
