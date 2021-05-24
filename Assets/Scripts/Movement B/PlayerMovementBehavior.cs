@@ -20,7 +20,7 @@ public class PlayerMovementBehavior : MonoBehaviour
     public void Move(int direction)
     {
         i += direction;
-        i = Mathf.Clamp(i, 0, 3);
+        i = Mathf.Clamp(i, 0, MovePoints.Length - 1);
         characterController.transform.position = MovePoints[i].transform.position;
         characterController.transform.forward = MovePoints[i].transform.forward;
     }
