@@ -5,23 +5,29 @@ using UnityEngine;
 public class CustomerBehavior : MonoBehaviour
 {
     bool isDrinking = false;
+
+    void Update()
+    {
+        
+    }
+
     private void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "Mug")
+        if (col.gameObject.CompareTag ("Mug"))
         {
           col.gameObject.GetComponent<SlideBackBehavior>();
             isDrinking = true;
         }
 
-        if (col.gameObject.tag == "Despawner")
+        if (col.gameObject.CompareTag ("Despawner"))
         {
-            Destroy(gameObject);
+            Destroy(col.gameObject);
         }
 
         if (isDrinking == true);
         {
 
         }
-            
+        //col.gameObject.tag == "Mug"
     }
 }

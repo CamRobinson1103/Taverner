@@ -10,9 +10,9 @@ public class SlideBackBehavior : MonoBehaviour
     {
         if(col.gameObject.tag =="Mug")
         {
-            transform.position -= new Vector3(-SlideBack, 0, 0) * Time.deltaTime;
+            //transform.forward
+            transform.forward -= new Vector3(SlideBack, 0, 0);
         }
     }
-    
 }
 
