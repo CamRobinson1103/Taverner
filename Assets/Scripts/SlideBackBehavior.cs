@@ -5,14 +5,13 @@ using UnityEngine;
 public class SlideBackBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private float SlideBack = 5;
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if(collision.gameObject)
+        {
+            transform.forward -= new Vector3(0, 0, SlideBack);
+        }
     }
 }
