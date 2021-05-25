@@ -10,7 +10,19 @@ public class SlideBackBehavior : MonoBehaviour
     {
         if(col.gameObject.tag =="Mug")
         {
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scripts/SlideBackBehavior.cs~HEAD
+=======
+<<<<<<< HEAD:Assets/Scripts/SlideBackBehavior.cs
+            //transform.forward
+            //transform.forward -= new Vector3(-SlideBack, 0, 0);
+
+            Debug.Log("Ut works");
+        }
+    }
+}
+=======
+>>>>>>> Cam'sBranch
             transform.position -= new Vector3(-SlideBack, 0, 0) * Time.deltaTime;
         }
     }
@@ -23,3 +35,4 @@ public class SlideBackBehavior : MonoBehaviour
 >>>>>>> parent of 707f5e5... Recreated Set:Assets/Scripts/SlideBackBehavior.cs
 }
 
+>>>>>>> Cam'sBranch:Assets/Scripts/SlideBackBehavior.cs~HEAD

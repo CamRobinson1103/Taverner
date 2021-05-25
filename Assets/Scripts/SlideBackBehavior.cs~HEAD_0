@@ -10,9 +10,16 @@ public class SlideBackBehavior : MonoBehaviour
     {
         if(col.gameObject.tag =="Mug")
         {
+<<<<<<< HEAD:Assets/Scripts/SlideBackBehavior.cs~HEAD_0
             transform.position -= new Vector3(-SlideBack, 0, 0) * Time.deltaTime;
         }
     }
     
+=======
+            //transform.forward
+            transform.forward -= new Vector3(SlideBack, 0, 0);
+        }
+    }
+>>>>>>> parent of 707f5e5... Recreated Set:Assets/Scripts/SlideBackBehavior.cs
 }
 
