@@ -1,0 +1,21 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SlideBackBehavior : MonoBehaviour
+{
+    public float SlideBack = 5;
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject)
+        {
+<<<<<<< HEAD:Assets/Scripts/Customer/SlideBackBehavior.cs
+            transform.position -= new Vector3(0, 0, SlideBack) * Time.deltaTime;
+=======
+            //transform.forward
+            transform.forward -= new Vector3(SlideBack, 0, 0);
+>>>>>>> Cam'sBranch:Assets/Scripts/SlideBackBehavior.cs
+        }
+    }
+}
