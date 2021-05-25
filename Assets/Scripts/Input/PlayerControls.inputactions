@@ -13,7 +13,10 @@
                     "processors": "",
                     "interactions": ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 707f5e5... Recreated Set
                 },
                 {
                     "name": "Movement",
@@ -22,7 +25,10 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+<<<<<<< HEAD
 >>>>>>> Cam'sBranch
+=======
+>>>>>>> parent of 707f5e5... Recreated Set
                 }
             ],
             "bindings": [
@@ -48,7 +54,10 @@
                     "isComposite": false,
                     "isPartOfComposite": false
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 707f5e5... Recreated Set
                 },
                 {
                     "name": "1D Axis",
@@ -82,7 +91,10 @@
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
+<<<<<<< HEAD
 >>>>>>> Cam'sBranch
+=======
+>>>>>>> parent of 707f5e5... Recreated Set
                 }
             ]
         }
