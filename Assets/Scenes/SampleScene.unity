@@ -1553,6 +1553,11 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5284809366555238707, guid: e759eb00ea3f8784fb997c7501eb66ac,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7680949045715493036, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_IsTrigger
