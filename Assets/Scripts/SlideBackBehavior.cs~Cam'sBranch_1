@@ -10,7 +10,12 @@ public class SlideBackBehavior : MonoBehaviour
     {
         if (collision.gameObject)
         {
+<<<<<<< HEAD:Assets/Scripts/Customer/SlideBackBehavior.cs
             transform.position -= new Vector3(0, 0, SlideBack) * Time.deltaTime;
+=======
+            //transform.forward
+            transform.forward -= new Vector3(SlideBack, 0, 0);
+>>>>>>> Cam'sBranch:Assets/Scripts/SlideBackBehavior.cs
         }
     }
 }

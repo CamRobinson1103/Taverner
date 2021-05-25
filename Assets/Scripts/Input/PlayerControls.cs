@@ -25,6 +25,17 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+<<<<<<< HEAD
+=======
+                },
+                {
+                    ""name"": ""Movement"",
+                    ""type"": ""Button"",
+                    ""id"": ""aabb130f-db54-49bc-8c44-e83d836d80d8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+>>>>>>> Cam'sBranch
                 }
             ],
             ""bindings"": [
@@ -49,6 +60,42 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""action"": ""Shoot"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+<<<<<<< HEAD
+=======
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""fdd86b6f-f2d3-4098-b532-cdfa4f5bd880"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""320b518b-d359-4d27-b9d4-f267b80fb5b7"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""4f976603-121a-41ab-aa33-99ff8a1debdb"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+>>>>>>> Cam'sBranch
                 }
             ]
         }
@@ -58,6 +105,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Shoot = m_Player.FindAction("Shoot", throwIfNotFound: true);
+<<<<<<< HEAD
+=======
+        m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
+>>>>>>> Cam'sBranch
     }
 
     public void Dispose()
@@ -108,11 +159,19 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private readonly InputActionMap m_Player;
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_Shoot;
+<<<<<<< HEAD
+=======
+    private readonly InputAction m_Player_Movement;
+>>>>>>> Cam'sBranch
     public struct PlayerActions
     {
         private @PlayerControls m_Wrapper;
         public PlayerActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Shoot => m_Wrapper.m_Player_Shoot;
+<<<<<<< HEAD
+=======
+        public InputAction @Movement => m_Wrapper.m_Player_Movement;
+>>>>>>> Cam'sBranch
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -125,6 +184,12 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Shoot.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShoot;
                 @Shoot.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShoot;
                 @Shoot.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShoot;
+<<<<<<< HEAD
+=======
+                @Movement.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Movement.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Movement.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+>>>>>>> Cam'sBranch
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -132,6 +197,12 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Shoot.started += instance.OnShoot;
                 @Shoot.performed += instance.OnShoot;
                 @Shoot.canceled += instance.OnShoot;
+<<<<<<< HEAD
+=======
+                @Movement.started += instance.OnMovement;
+                @Movement.performed += instance.OnMovement;
+                @Movement.canceled += instance.OnMovement;
+>>>>>>> Cam'sBranch
             }
         }
     }
@@ -139,5 +210,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     public interface IPlayerActions
     {
         void OnShoot(InputAction.CallbackContext context);
+<<<<<<< HEAD
+=======
+        void OnMovement(InputAction.CallbackContext context);
+>>>>>>> Cam'sBranch
     }
 }
