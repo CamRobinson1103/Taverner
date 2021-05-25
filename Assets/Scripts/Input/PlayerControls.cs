@@ -26,7 +26,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""interactions"": """"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 707f5e5... Recreated Set
                 },
                 {
                     ""name"": ""Movement"",
@@ -35,7 +38,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+<<<<<<< HEAD
 >>>>>>> Cam'sBranch
+=======
+>>>>>>> parent of 707f5e5... Recreated Set
                 }
             ],
             ""bindings"": [
@@ -61,7 +67,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 707f5e5... Recreated Set
                 },
                 {
                     ""name"": ""1D Axis"",
@@ -95,7 +104,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+<<<<<<< HEAD
 >>>>>>> Cam'sBranch
+=======
+>>>>>>> parent of 707f5e5... Recreated Set
                 }
             ]
         }
@@ -106,9 +118,13 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Shoot = m_Player.FindAction("Shoot", throwIfNotFound: true);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
 >>>>>>> Cam'sBranch
+=======
+        m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
+>>>>>>> parent of 707f5e5... Recreated Set
     }
 
     public void Dispose()
@@ -160,18 +176,26 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_Shoot;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     private readonly InputAction m_Player_Movement;
 >>>>>>> Cam'sBranch
+=======
+    private readonly InputAction m_Player_Movement;
+>>>>>>> parent of 707f5e5... Recreated Set
     public struct PlayerActions
     {
         private @PlayerControls m_Wrapper;
         public PlayerActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Shoot => m_Wrapper.m_Player_Shoot;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         public InputAction @Movement => m_Wrapper.m_Player_Movement;
 >>>>>>> Cam'sBranch
+=======
+        public InputAction @Movement => m_Wrapper.m_Player_Movement;
+>>>>>>> parent of 707f5e5... Recreated Set
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -185,11 +209,17 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Shoot.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShoot;
                 @Shoot.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShoot;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 @Movement.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
                 @Movement.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
                 @Movement.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
 >>>>>>> Cam'sBranch
+=======
+                @Movement.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Movement.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Movement.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+>>>>>>> parent of 707f5e5... Recreated Set
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -198,11 +228,17 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Shoot.performed += instance.OnShoot;
                 @Shoot.canceled += instance.OnShoot;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 @Movement.started += instance.OnMovement;
                 @Movement.performed += instance.OnMovement;
                 @Movement.canceled += instance.OnMovement;
 >>>>>>> Cam'sBranch
+=======
+                @Movement.started += instance.OnMovement;
+                @Movement.performed += instance.OnMovement;
+                @Movement.canceled += instance.OnMovement;
+>>>>>>> parent of 707f5e5... Recreated Set
             }
         }
     }
@@ -211,8 +247,12 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     {
         void OnShoot(InputAction.CallbackContext context);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         void OnMovement(InputAction.CallbackContext context);
 >>>>>>> Cam'sBranch
+=======
+        void OnMovement(InputAction.CallbackContext context);
+>>>>>>> parent of 707f5e5... Recreated Set
     }
 }
