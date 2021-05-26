@@ -8,15 +8,13 @@ public class CustomerBehavior : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Mug"))
         {
-            //col.gameObject.GetComponent<SlideBackBehavior>();
+            col.gameObject.GetComponent<SlideBackBehavior>();
             Debug.Log("It works");
         }
 
-
-        if (col.gameObject.CompareTag ("Despawner"))
+        if (col.gameObject.CompareTag("Despawner"))
         {
             Destroy(gameObject);
         }
     }
 }
-
