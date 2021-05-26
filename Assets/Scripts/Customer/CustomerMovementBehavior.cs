@@ -29,7 +29,7 @@ public class CustomerMovementBehavior : MonoBehaviour
 
         valueToLerp = endValue;
     }
-
+    
     // Update is called once per frame
     void Update()
     {
