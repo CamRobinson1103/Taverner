@@ -11,10 +11,5 @@ public class CustomerBehavior : MonoBehaviour
             col.gameObject.GetComponent<SlideBackBehavior>();
             Debug.Log("It works");
         }
-
-        if (col.gameObject.CompareTag("Despawner"))
-        {
-            Destroy(gameObject);
-        }
     }
 }
