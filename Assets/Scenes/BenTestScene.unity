@@ -795,6 +795,7 @@ MonoBehaviour:
   - {fileID: 893438786}
   - {fileID: 335819409}
   characterController: {fileID: 0}
+  i: 0
 --- !u!114 &990207166
 MonoBehaviour:
   m_ObjectHideFlags: 0
