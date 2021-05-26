@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class CustomerBehavior : MonoBehaviour
 {
-
-
     private void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.CompareTag("Mug"))
         {
-            //col.gameObject.GetComponent<SlideBackBehavior>();
+            col.gameObject.GetComponent<SlideBackBehavior>();
             Debug.Log("It works");
         }
 
 
-        if (col.gameObject.tag == "Despawner")
+        if (col.gameObject.CompareTag ("Despawner"))
         {
             Destroy(gameObject);
         }

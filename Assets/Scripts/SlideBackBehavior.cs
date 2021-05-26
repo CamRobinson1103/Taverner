@@ -7,10 +7,11 @@ public class SlideBackBehavior : MonoBehaviour
     // Start is called before the first frame update
     private float SlideBack = 5;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider col)
     {
-        if(collision.gameObject)
+        if(col.gameObject.CompareTag ("Mug"))
         {
+            Debug.Log("It works");
             transform.forward -= new Vector3(0, 0, SlideBack);
         }
     }
