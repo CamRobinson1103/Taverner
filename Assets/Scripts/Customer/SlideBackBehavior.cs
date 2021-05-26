@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class SlideBackBehavior : MonoBehaviour
 {
-    public float SlideBack = 5;
+    // Start is called before the first frame update
+    private float SlideBack = 5;
 
     private void OnTriggerEnter(Collider col)
     {
-        if(col.gameObject.tag =="Mug")
+        if(col.gameObject.CompareTag ("Mug"))
         {
-            //transform.forward
-            transform.forward -= new Vector3(SlideBack, 0, 0);
+            transform.forward -= new Vector3(0, 0, -SlideBack);
         }
     }
 }
-

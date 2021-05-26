@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Mug
+  - CustomerNPC
   - MovePoint
-  - KillPlane
-  - Enemy
   layers:
   - Default
   - TransparentFX
