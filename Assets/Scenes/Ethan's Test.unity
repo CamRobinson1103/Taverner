@@ -435,5 +435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _objectSpawn: {fileID: 8674046249740735345, guid: 4e733b26b74f64d4f803af969ed41a67,
     type: 3}
+  _objectSpawn2: {fileID: 5404085513874434880, guid: 6ddfa42c2ad67a240aad75f99a2a577b,
+    type: 3}
   _canspawntime: 1
   _nextspawnTime: 5
+  _randomTime: 5
