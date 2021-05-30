@@ -5,15 +5,16 @@ using UnityEngine;
 public class SpawnerBehavior : MonoBehaviour
 {
     [SerializeField]
-    public GameObject _objectSpawn;
+    private GameObject _objectSpawn;
     [SerializeField]
-    public GameObject _objectSpawn2;
+    private GameObject _objectSpawn2;
     [SerializeField]
-    private bool _canspawntime;
+    private bool _canspawnTime;
     [SerializeField]
-    private float _nextspawnTime = 5;
-    [SerializeField]
-    private float _randomTime;
+    private float _nextspawnTime = 5.0f;
+    //[SerializeField]
+    //private float _nextspawnTime2 = 10.0f;
+
 
 
     private void Start()
@@ -24,23 +25,20 @@ public class SpawnerBehavior : MonoBehaviour
 
     public IEnumerator Spawn()
     {
-        while (_canspawntime)
+        while (_canspawnTime)
         {
             GameObject gameobject = Instantiate(_objectSpawn, transform.position, new Quaternion());
-            yield return new WaitForSeconds(_nextspawnTime);
+            yield return new WaitForSeconds(_nextspawnTime = 10.0f);
+            yield return StartCoroutine(Spawn2());
         }
 
-        while (_canspawntime)
-        {
-            GameObject gameobject = Instantiate(_objectSpawn2, transform.position, new Quaternion());
-            yield return new WaitForSeconds(_randomTime);
-        }
     }
-
-
-    public void RandomTime()
+    
+    public IEnumerator Spawn2()
     {
-        _randomTime = Random.Range(1, 5);
+        GameObject gameobject2 = Instantiate(_objectSpawn2, transform.position, new Quaternion());
+        yield return new WaitForSeconds(2.0f);
     }
+
 
 }
