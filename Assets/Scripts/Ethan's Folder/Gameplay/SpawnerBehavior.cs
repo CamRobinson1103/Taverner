@@ -9,11 +9,13 @@ public class SpawnerBehavior : MonoBehaviour
     [SerializeField]
     private GameObject _objectSpawn2;
     [SerializeField]
-    private bool _canspawnTime;
+    private float _nextspawnTime;
     [SerializeField]
-    private float _nextspawnTime = 5.0f;
-    //[SerializeField]
-    //private float _nextspawnTime2 = 10.0f;
+    private float _nextspawnTime2;
+    [SerializeField]
+    private int _spawnCount;
+    [SerializeField]
+    private int _spawnCount2;
 
 
 
@@ -25,20 +27,20 @@ public class SpawnerBehavior : MonoBehaviour
 
     public IEnumerator Spawn()
     {
-        while (_canspawnTime)
+        for (int count = _spawnCount; count > 0; --count)
         {
             GameObject gameobject = Instantiate(_objectSpawn, transform.position, new Quaternion());
-            yield return new WaitForSeconds(_nextspawnTime = 10.0f);
-            yield return StartCoroutine(Spawn2());
+            yield return new WaitForSeconds(_nextspawnTime);
         }
 
+        for (int count = _spawnCount2; count > 0; --count)
+        {
+            GameObject gameobject2 = Instantiate(_objectSpawn2, transform.position, new Quaternion());
+            yield return new WaitForSeconds(_nextspawnTime2);
+        }
     }
-    
-    public IEnumerator Spawn2()
-    {
-        GameObject gameobject2 = Instantiate(_objectSpawn2, transform.position, new Quaternion());
-        yield return new WaitForSeconds(2.0f);
-    }
+
+
 
 
 }

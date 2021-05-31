@@ -437,5 +437,7 @@ MonoBehaviour:
     type: 3}
   _objectSpawn2: {fileID: 7508305439860664326, guid: e805fbbaa562db7459faed5e344147b0,
     type: 3}
-  _canspawnTime: 1
-  _nextspawnTime: 3
+  _nextspawnTime: 1
+  _nextspawnTime2: 3
+  _spawnCount: 3
+  _spawnCount2: 3
