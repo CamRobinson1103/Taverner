@@ -11,7 +11,7 @@ public class SlideBackBehavior : MonoBehaviour
     {
         if(col.gameObject.CompareTag ("Mug"))
         {
-            transform.forward -= new Vector3(0, 0, -SlideBack);
+            transform.forward -= new Vector3(0, -SlideBack, 0);
         }
     }
 }
