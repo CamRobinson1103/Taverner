@@ -25,7 +25,7 @@ public class SpawnerBehavior : MonoBehaviour
     }
 
 
-    public IEnumerator Spawn()
+    private IEnumerator Spawn()
     {
         for (int count = _spawnCount; count > 0; --count)
         {
@@ -38,8 +38,8 @@ public class SpawnerBehavior : MonoBehaviour
             GameObject gameobject2 = Instantiate(_objectSpawn2, transform.position, new Quaternion());
             yield return new WaitForSeconds(_nextspawnTime2);
         }
-    }
 
+    }
 
 
 
