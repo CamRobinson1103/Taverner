@@ -30,7 +30,6 @@ public class SlideBackBehavior : MonoBehaviour
     {
         if(col.gameObject.CompareTag ("Mug"))
         {
-            Debug.Log("It works YAY");
             isLerp = true;
         }
     }
