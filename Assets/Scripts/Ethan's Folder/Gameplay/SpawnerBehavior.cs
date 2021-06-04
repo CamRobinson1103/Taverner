@@ -11,17 +11,20 @@ public class SpawnerBehavior : MonoBehaviour
     [SerializeField]
     private int _spawnCount;
 
+    //Starts up the Spawn
     private void Start()
     {
         StartCoroutine(Spawn());
     }
 
-
+    //For everytime object spawns it decreases the spawn count
     private IEnumerator Spawn()
     {
         for (int count = _spawnCount; count > 0; --count)
         {
+            //Instantiates the object and its position
             GameObject gameobject = Instantiate(_objectSpawn, transform.position, new Quaternion());
+            //Returns the next spawn time
             yield return new WaitForSeconds(_nextspawnTime);
         }
     }
