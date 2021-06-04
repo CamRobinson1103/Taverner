@@ -14,16 +14,6 @@ public class ScoreDropBehavior : MonoBehaviour
         
     }
 
-    public void OnDestroy()
-    {
-        float randNum = Random.Range(leastNumber, maxNumber);
-
-        if (randNum.Equals(0))
-        {
-            Instantiate(boost.gameObject, transform.position, transform.rotation);
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
