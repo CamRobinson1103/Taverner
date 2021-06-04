@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SlideBackBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
     private bool isLerp = false;
     private Vector3 newPosition;
     public float move = 2;

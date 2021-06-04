@@ -9,7 +9,6 @@ public class CustomerMovementBehavior : MonoBehaviour
     void Update()
     {
         transform.position -= new Vector3(0, 0, HSpeed) * Time.deltaTime;
-
     }
 }
 
