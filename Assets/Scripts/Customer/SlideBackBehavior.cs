@@ -10,7 +10,7 @@ public class SlideBackBehavior : MonoBehaviour
 
     private void Update()
     {
-        if(isLerp)
+        if (isLerp)
         {
             PositionChange();
         }
@@ -30,6 +30,9 @@ public class SlideBackBehavior : MonoBehaviour
         if(col.gameObject.CompareTag ("Mug"))
         {
             isLerp = true;
+            //Add timer for customer for after collisiin
+            //Instead of going to a specific spot, customer just moves back
         }
     }
 }
+
