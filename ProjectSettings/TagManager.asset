@@ -10,6 +10,7 @@ TagManager:
   - KillPlane
   - Enemy
   - ScoreBoost
+  - ScoreBoost-B
   layers:
   - Default
   - TransparentFX

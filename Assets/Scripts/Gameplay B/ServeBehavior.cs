@@ -44,6 +44,11 @@ public class ServeBehavior : MonoBehaviour
     {
         if (other.CompareTag("ScoreBoost"))
         {
+            _score.AddScore(5);
+            Destroy(other.gameObject);
+        }
+        else if(other.CompareTag("ScoreBoost-B"))
+        {
             _score.AddScore(10);
             Destroy(other.gameObject);
         }
