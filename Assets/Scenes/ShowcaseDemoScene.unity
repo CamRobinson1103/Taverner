@@ -1543,6 +1543,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Mug
       objectReference: {fileID: 0}
+    - target: {fileID: 3680553811118007597, guid: fc71ad9aefec646418a3e99cb62b8fa1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680553811118007597, guid: fc71ad9aefec646418a3e99cb62b8fa1,
+        type: 3}
+      propertyPath: m_Height
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680553811118007597, guid: fc71ad9aefec646418a3e99cb62b8fa1,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1.64
+      objectReference: {fileID: 0}
     - target: {fileID: 4533732581797396121, guid: fc71ad9aefec646418a3e99cb62b8fa1,
         type: 3}
       propertyPath: m_LocalPosition.x
