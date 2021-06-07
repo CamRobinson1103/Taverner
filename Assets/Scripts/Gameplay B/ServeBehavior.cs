@@ -14,11 +14,11 @@ public class ServeBehavior : MonoBehaviour
     public float timeBetweenShots;
     //Variable used to store the time plus the timeBetween shots
     private float nextShot;
-    //Reference to the GameManager
-    public GameManagerBehavior score;
     //The server's firerate
     [SerializeField]
     private float shootSpeed;
+    [SerializeField]
+    private GameManagerBehavior _score;
 
     // Start is called before the first frame update
     void Start()
@@ -37,8 +37,20 @@ public class ServeBehavior : MonoBehaviour
             ProjectileBehavior moveDrink = _drink.GetComponent<ProjectileBehavior>();
             //Sets the velocity to the server's forward scaled by the firerate
             moveDrink.Velocity = transform.forward * shootSpeed;
-            //Adds 10 to the score board whenever a shot is called
-            score.AddScore(10);
+        }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("ScoreBoost"))
+        {
+            _score.AddScore(5);
+            Destroy(other.gameObject);
+        }
+        else if(other.CompareTag("ScoreBoost-B"))
+        {
+            _score.AddScore(10);
+            Destroy(other.gameObject);
         }
     }
 

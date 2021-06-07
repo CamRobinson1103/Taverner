@@ -6,8 +6,10 @@ public class ProjectileBehavior : MonoBehaviour
 {
     //Reference to the projectile's rigidbody
     public Rigidbody rigidbody;
-
+    //
     private Vector3 _velocity;
+    [SerializeField]
+    private GameManagerBehavior score;
 
     public Vector3 Velocity
     {
@@ -37,6 +39,7 @@ public class ProjectileBehavior : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            score.AddScore(5);
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
