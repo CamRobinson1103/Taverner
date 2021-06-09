@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SlideBackBehavior : MonoBehaviour
 {
+    [SerializeField]
+    private Transform _target;
+    //Naega
     private bool isLerp = false;
     private Vector3 newPosition;
     public float move = 2;
@@ -15,10 +18,9 @@ public class SlideBackBehavior : MonoBehaviour
             PositionChange();
         }
     }
-
     void PositionChange()
     {
-        Vector3 positionA = new Vector3(1, 1, 12);
+        Vector3 positionA = new Vector3();
         newPosition = positionA;
 
         transform.position = Vector3.Lerp(transform.position, newPosition, move * Time.deltaTime);
