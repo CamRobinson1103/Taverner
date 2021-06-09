@@ -600,7 +600,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &424574420
 GameObject:
@@ -821,7 +821,7 @@ PrefabInstance:
     - target: {fileID: 8947400792086758815, guid: 1e18a30b4f467584c818a9a050cc36fc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8947400792086758815, guid: 1e18a30b4f467584c818a9a050cc36fc,
         type: 3}
@@ -1156,7 +1156,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1037270613
 GameObject:
@@ -1516,6 +1516,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8653114086887817088, guid: e759eb00ea3f8784fb997c7501eb66ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8744127673981257582, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1554,7 +1559,7 @@ PrefabInstance:
     - target: {fileID: 8744127673981257582, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8744127673981257582, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
@@ -1683,6 +1688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Projectile
       objectReference: {fileID: 0}
+    - target: {fileID: 598726100735754502, guid: fc71ad9aefec646418a3e99cb62b8fa1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Mug
+      objectReference: {fileID: 0}
     - target: {fileID: 4533732581797396121, guid: fc71ad9aefec646418a3e99cb62b8fa1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1721,7 +1731,7 @@ PrefabInstance:
     - target: {fileID: 4533732581797396121, guid: fc71ad9aefec646418a3e99cb62b8fa1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4533732581797396121, guid: fc71ad9aefec646418a3e99cb62b8fa1,
         type: 3}
@@ -1832,7 +1842,7 @@ Transform:
   m_LocalScale: {x: 3, y: 1, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2080766989 stripped
 GameObject:
@@ -1853,8 +1863,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boost: {fileID: 445127619}
-  maxNumber: 2
+  maxNumber: 5
   leastNumber: 0
+  served: 0
 --- !u!1 &2139244185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,7 +2004,7 @@ PrefabInstance:
     - target: {fileID: 5195407876996813601, guid: 658e7309f74069d4ca471499716b2084,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5195407876996813601, guid: 658e7309f74069d4ca471499716b2084,
         type: 3}
