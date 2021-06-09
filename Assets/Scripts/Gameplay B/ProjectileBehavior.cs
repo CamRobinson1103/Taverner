@@ -33,14 +33,9 @@ public class ProjectileBehavior : MonoBehaviour
     {
         if (other.CompareTag("KillPlane"))
             Destroy(gameObject);
-    }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
+        else if (other.CompareTag("Enemy"))
             score.AddScore(5);
-        }
     }
 
     // Update is called once per frame
