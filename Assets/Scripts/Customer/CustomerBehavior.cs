@@ -13,7 +13,12 @@ public class CustomerBehavior : MonoBehaviour
 
         if (col.gameObject.CompareTag("KillPlane"))
         {
+            Debug.Log("It works yay");
+        }
 
+        if(col.gameObject.CompareTag("LoseBox"))
+        {
+            Debug.Log("You Lose!");
         }
     }
 }
