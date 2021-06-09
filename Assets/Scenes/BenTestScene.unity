@@ -1310,6 +1310,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896754155928950609, guid: e759eb00ea3f8784fb997c7501eb66ac,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 910844963643028416, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_IsKinematic
@@ -1318,7 +1323,7 @@ PrefabInstance:
     - target: {fileID: 5284809366555238707, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7680949045715493036, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
@@ -1507,6 +1512,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Mug
       objectReference: {fileID: 0}
+    - target: {fileID: 3680553811118007597, guid: fc71ad9aefec646418a3e99cb62b8fa1,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4533732581797396121, guid: fc71ad9aefec646418a3e99cb62b8fa1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1565,7 +1575,7 @@ PrefabInstance:
     - target: {fileID: 4879156036547991512, guid: fc71ad9aefec646418a3e99cb62b8fa1,
         type: 3}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc71ad9aefec646418a3e99cb62b8fa1, type: 3}
