@@ -16,9 +16,13 @@ public class ScoreDropBehavior : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        int rand = Random.Range(leastNumber, maxNumber);
+
         if (collision.gameObject.CompareTag("Mug"))
         {
-            Instantiate(boost.gameObject, gameObject.transform.position, gameObject.transform.rotation);
+            if (rand == 2)
+                Instantiate(boost.gameObject, gameObject.transform.position, gameObject.transform.rotation);
+
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
