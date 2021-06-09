@@ -9,7 +9,16 @@ public class CustomerBehavior : MonoBehaviour
         if (col.gameObject.CompareTag("Mug"))
         {
             col.gameObject.GetComponent<SlideBackBehavior>();
-            Debug.Log("It works");
+        }
+
+        if (col.gameObject.CompareTag("KillPlane"))
+        {
+            Debug.Log("It works yay");
+        }
+
+        if(col.gameObject.CompareTag("LoseBox"))
+        {
+            Debug.Log("You Lose!");
         }
     }
 }
