@@ -6,9 +6,10 @@ public class SlideBackBehavior : MonoBehaviour
 {
     [SerializeField]
     private Transform _target;
-    private bool isLerp = false;
     private Vector3 newPosition;
     public float move = 2;
+    private bool isLerp = false;
+
 
     private void Update()
     {
@@ -16,6 +17,7 @@ public class SlideBackBehavior : MonoBehaviour
         {
             PositionChange();
         }
+        //_target = 
     }
     void PositionChange()
     {
