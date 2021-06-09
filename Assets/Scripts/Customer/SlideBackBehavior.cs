@@ -20,7 +20,7 @@ public class SlideBackBehavior : MonoBehaviour
     }
     void PositionChange()
     {
-        Vector3 positionA = new Vector3();
+        Vector3 positionA = new Vector3(0,1,4);
         newPosition = positionA;
 
         transform.position = Vector3.Lerp(transform.position, newPosition, move * Time.deltaTime);
