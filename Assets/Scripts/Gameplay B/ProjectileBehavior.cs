@@ -40,8 +40,6 @@ public class ProjectileBehavior : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             score.AddScore(5);
-            //Destroy(collision.gameObject);
-            //Destroy(gameObject);
         }
     }
 

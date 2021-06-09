@@ -7,7 +7,6 @@ public class ScoreDropBehavior : MonoBehaviour
     public GameObject boost;
     public int maxNumber;
     public int leastNumber;
-    public bool isServed;
 
     // Start is called before the first frame update
     void Start()
