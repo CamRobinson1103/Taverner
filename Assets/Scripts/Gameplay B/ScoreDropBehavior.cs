@@ -14,17 +14,16 @@ public class ScoreDropBehavior : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         int rand = Random.Range(leastNumber, maxNumber);
 
-        if (collision.gameObject.CompareTag("Mug"))
+        if (other.CompareTag("Mug"))
         {
             if (rand == 2)
                 Instantiate(boost.gameObject, gameObject.transform.position, gameObject.transform.rotation);
 
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 
