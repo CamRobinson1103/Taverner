@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KillPlaneBehavior : MonoBehaviour
+public class LosePlaneBehavior : MonoBehaviour
 {
     //Reference to the game manager
     public GameManagerBehavior hud;
@@ -13,9 +13,9 @@ public class KillPlaneBehavior : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Mug"))
+        if (other.CompareTag("Enemy"))
         {
             hud.RemoveLife(1);
         }
