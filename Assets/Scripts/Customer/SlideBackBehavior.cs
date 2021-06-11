@@ -9,7 +9,7 @@ public class SlideBackBehavior : MonoBehaviour
     private Vector3 newPosition;
     public float move = 2;
     private bool isLerp = false;
-
+    //Taemin goin stupid in the stu again.. wait til this man leanes the military. He finna go DUMB STOOOOPID in the stu
 
     private void Update()
     {
@@ -17,11 +17,10 @@ public class SlideBackBehavior : MonoBehaviour
         {
             PositionChange();
         }
-        //_target = 
     }
     void PositionChange()
     {
-        Vector3 positionA = new Vector3(0,1,4);
+        Vector3 positionA = new Vector3(0,0,0);
         newPosition = positionA;
 
         transform.position = Vector3.Lerp(transform.position, newPosition, move * Time.deltaTime);
