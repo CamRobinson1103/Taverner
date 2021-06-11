@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - ScoreBoost
   - ScoreBoost-B
+  - ServePoint
   layers:
   - Default
   - TransparentFX
