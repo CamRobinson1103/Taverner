@@ -8,8 +8,7 @@ public class CustomerMovementBehavior : MonoBehaviour
 
     void Update()
     {
-        GameObject.velocity = transform.right * HSpeed;
-        transform.right -= new Vector3(0, 0, HSpeed) * Time.deltaTime;
+        transform.position -= new Vector3(0, 0, HSpeed) * Time.deltaTime;
     }
 }
 
