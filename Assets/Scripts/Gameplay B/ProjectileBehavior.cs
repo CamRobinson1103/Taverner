@@ -42,6 +42,28 @@ public class ProjectileBehavior : MonoBehaviour
         else if (other.CompareTag("ServePoint"))
             //Adds to the scoreboard
             score.AddScore(5);
+
+        //Checks if the collider is a ScoreBoost
+        else if (other.CompareTag("ScoreBoost"))
+        {
+            //Adds points to the scoreboard
+            score.AddScore(5);
+            //Destroys the scoreboost
+            Destroy(other.gameObject);
+            //Destroys the projectile
+            Destroy(gameObject);
+        }
+
+        //Checks if the collider is a ScoreBoost-B
+        else if (other.CompareTag("ScoreBoost-B"))
+        {
+            //Adds points to the scoreboard
+            score.AddScore(10);
+            //Destroys the scoreboost
+            Destroy(other.gameObject);
+            //Destroys the projectile
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
