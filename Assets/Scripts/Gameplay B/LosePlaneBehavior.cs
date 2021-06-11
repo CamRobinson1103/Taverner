@@ -15,8 +15,10 @@ public class LosePlaneBehavior : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
+        //Checks if an enemy enters the LosePlane
         if (other.CompareTag("Enemy"))
         {
+            //If so removes a life from the life counter
             hud.RemoveLife(1);
         }
     }

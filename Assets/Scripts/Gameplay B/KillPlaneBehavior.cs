@@ -15,8 +15,10 @@ public class KillPlaneBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //Checks if a projectile enters the KillPlane
         if (other.CompareTag("Mug"))
         {
+            //If so removes a life from the life counter
             hud.RemoveLife(1);
         }
     }
