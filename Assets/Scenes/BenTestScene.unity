@@ -1395,7 +1395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddd111f12c1ec43bd602c130589d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hud: {fileID: 0}
+  hud: {fileID: 1037270614}
 --- !u!1 &1342804021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,7 +1529,7 @@ PrefabInstance:
     - target: {fileID: 896754155928950609, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: ServePoint
       objectReference: {fileID: 0}
     - target: {fileID: 910844963643028416, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
@@ -1539,6 +1539,11 @@ PrefabInstance:
     - target: {fileID: 5284809366555238707, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284809366555238707, guid: e759eb00ea3f8784fb997c7501eb66ac,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7680949045715493036, guid: e759eb00ea3f8784fb997c7501eb66ac,

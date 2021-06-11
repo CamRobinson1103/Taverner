@@ -39,7 +39,7 @@ public class ProjectileBehavior : MonoBehaviour
             Destroy(gameObject);
 
         //Checks if the collider is a customer(enemy)
-        else if (other.CompareTag("Enemy"))
+        else if (other.CompareTag("ServePoint"))
             //Adds to the scoreboard
             score.AddScore(5);
     }
