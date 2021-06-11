@@ -6,10 +6,10 @@ public class SlideBackBehavior : MonoBehaviour
 {
     [SerializeField]
     private Transform _target;
+    [SerializeField]
     private Vector3 newPosition;
     public float move = 2;
     private bool isLerp = false;
-    //Taemin goin stupid in the stu again.. wait til this man leanes the military. He finna go DUMB STOOOOPID in the stu
 
     private void Update()
     {
@@ -20,9 +20,6 @@ public class SlideBackBehavior : MonoBehaviour
     }
     void PositionChange()
     {
-        Vector3 positionA = new Vector3(0,0,0);
-        newPosition = positionA;
-
         transform.position = Vector3.Lerp(transform.position, newPosition, move * Time.deltaTime);
 
     }
