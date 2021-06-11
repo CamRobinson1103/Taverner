@@ -22,8 +22,7 @@ public class SlideBackBehavior : MonoBehaviour
     {
         transform.position = Vector3.Lerp(transform.position, newPosition, move * Time.deltaTime);
     }
-    //I thought I had something. Japanese sounds so good to me. I'm... nvm I was faded in that last song
-    // TALK TO THESE NIGGAS JOHNATHAN
+    
     private void OnTriggerEnter(Collider col)
     {
         if(col.gameObject.CompareTag ("Mug"))
