@@ -28,7 +28,4 @@ public class SpawnerBehavior : MonoBehaviour
             yield return new WaitForSeconds(_nextspawnTime);
         }
     }
-
-
-
 }
