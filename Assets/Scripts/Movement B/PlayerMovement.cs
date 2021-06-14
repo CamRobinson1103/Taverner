@@ -26,11 +26,6 @@ public class PlayerMovement : MonoBehaviour
         i += direction;
         i = Mathf.Clamp(i, 0, 1);
         inputActions.transform.position = SkipOver[i].transform.position;
-        //if (gameObject.transform)
-        //{
-        //    inputActions.transform.position = SkipOver[i].transform.position;
-        //}
-        
     }
 
 }
