@@ -172,6 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab72e1ea07e4a543916d31da7880075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeRemaining: 2
+  timerIsRunning: 0
 --- !u!114 &1721544285482808103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a941b01c9b30dc740832956f3a19084e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 8744127673981257582}
+  _target: {fileID: 0}
   newPosition: {x: 1, y: 1, z: 12}
   move: 3
 --- !u!114 &3830660845715713256
@@ -212,5 +214,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c529cca3b9b6e314bb8066bafadfa6fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 3
-  timerIsRunning: 0
