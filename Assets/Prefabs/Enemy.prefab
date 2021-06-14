@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: -4857552324882061348}
   - component: {fileID: 1721544285482808103}
   - component: {fileID: 1565094629446706550}
-  - component: {fileID: 3830660845715713256}
+  - component: {fileID: 9052928694341210225}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b9ecf5cc1bcdfd4aa2270356b6ea1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HSpeed: 3
+  HSpeed: 1
 --- !u!114 &1565094629446706550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,10 +197,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a941b01c9b30dc740832956f3a19084e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 8744127673981257582}
+  _target: {fileID: 0}
   newPosition: {x: 1, y: 1, z: 12}
   move: 3
---- !u!114 &3830660845715713256
+--- !u!114 &9052928694341210225
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,5 +212,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c529cca3b9b6e314bb8066bafadfa6fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 3
+  timeRemaining: 2
   timerIsRunning: 0
