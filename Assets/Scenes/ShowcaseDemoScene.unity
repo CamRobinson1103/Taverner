@@ -1535,6 +1535,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreCounter: 0
   scoreText: {fileID: 1945562019}
+  livesCounter: 0
+  livesText: {fileID: 1945562019}
+  gameOver: {fileID: 0}
 --- !u!114 &2041092855
 MonoBehaviour:
   m_ObjectHideFlags: 0
