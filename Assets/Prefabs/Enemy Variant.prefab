@@ -17,6 +17,16 @@ PrefabInstance:
       propertyPath: newPosition.z
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 1565094629446706550, guid: e759eb00ea3f8784fb997c7501eb66ac,
+        type: 3}
+      propertyPath: move
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721544285482808103, guid: e759eb00ea3f8784fb997c7501eb66ac,
+        type: 3}
+      propertyPath: HSpeed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8653114086887817088, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_Name

@@ -4,37 +4,37 @@ using UnityEngine;
 
 public class TimerBehavior : MonoBehaviour
 {
-    //public float timeRemaining = 3;
-    //public bool timerIsRunning = false;
+    public float timeRemaining = 3;
+    public bool timerIsRunning = false;
 
-    //private void Start()
-    //{
-    //    timerIsRunning = true;
-    //}
+    private void Start()
+    {
 
-    //void Update()
-    //{
-    //    if (timerIsRunning)
-    //    {
-    //        if (timeRemaining > 0)
-    //        {
-    //            timeRemaining -= Time.deltaTime;
-    //        }
-    //        else
-    //        {
-    //            Debug.Log("Time has run out!");
-    //            timeRemaining = 0;
-    //            timerIsRunning = false;
-    //            gameObject.GetComponent<CustomerMovementBehavior>();
-    //        }
-    //    }
-    //}
+    }
 
-    //private void OnTriggerEnter(Collider col)
-    //{
-    //    if (col.gameObject.CompareTag("Mug"))
-    //    {
-    //        timerIsRunning = true;
-    //    }
-    //}
+    void Update()
+    {
+        if (timerIsRunning)
+        {
+            if (timeRemaining > 0)
+            {
+                timeRemaining -= Time.deltaTime;
+            }
+            else
+            {
+                Debug.Log("Timer works");
+                timeRemaining = 0;
+                gameObject.GetComponent<CustomerMovementBehavior>();
+                timerIsRunning = false;
+            }
+        }
+    }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.CompareTag("Mug"))
+        {
+            timerIsRunning = true;
+        }
+    }
 }
