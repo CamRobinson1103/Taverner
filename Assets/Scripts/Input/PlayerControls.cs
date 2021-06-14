@@ -78,7 +78,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""negative"",
+                    ""name"": ""positive"",
                     ""id"": ""320b518b-d359-4d27-b9d4-f267b80fb5b7"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
@@ -89,7 +89,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""positive"",
+                    ""name"": ""negative"",
                     ""id"": ""4f976603-121a-41ab-aa33-99ff8a1debdb"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",

@@ -13,6 +13,8 @@ public class GameManagerBehavior : MonoBehaviour
     public int livesCounter;
     //Reference to the live counter
     public Text livesText;
+    //Reference to the game over screen
+    public GameObject gameOver;
 
     // Start is called before the first frame update
     void Start()
@@ -48,5 +50,8 @@ public class GameManagerBehavior : MonoBehaviour
         scoreText.text = "Score: " + scoreCounter;
         //Sets the life counter to display the current amount of lives
         livesText.text = "Lives: " + livesCounter;
+
+        if (livesCounter <= 0)
+            gameOver.SetActive(true);
     }
 }
