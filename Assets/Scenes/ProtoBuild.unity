@@ -1492,7 +1492,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1353426860
 Transform:
   m_ObjectHideFlags: 0
@@ -1538,7 +1538,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1369276274
 Transform:
   m_ObjectHideFlags: 0
@@ -1831,7 +1831,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1463858449
 Transform:
   m_ObjectHideFlags: 0
@@ -1968,8 +1968,8 @@ GameObject:
   - component: {fileID: 1495994746}
   - component: {fileID: 1495994745}
   - component: {fileID: 1495994744}
-  - component: {fileID: 1495994743}
   - component: {fileID: 1495994742}
+  - component: {fileID: 1495994743}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2004,15 +2004,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1495994741}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69ea5520195329a469347944ab74a5fc, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ffece2828d174b459bead417427570b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovePoints:
+  TeleportPoints:
   - {fileID: 716490694}
   - {fileID: 25351328}
   - {fileID: 1187148422}
   - {fileID: 1083600497}
-  characterController: {fileID: 0}
+  SkipOver:
+  - {fileID: 716490694}
+  - {fileID: 1083600497}
+  inputActions: {fileID: 1495994742}
 --- !u!114 &1495994744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2241,7 +2244,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1510500255
 Transform:
   m_ObjectHideFlags: 0
