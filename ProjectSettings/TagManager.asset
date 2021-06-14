@@ -7,6 +7,11 @@ TagManager:
   - Mug
   - CustomerNPC
   - MovePoint
+  - KillPlane
+  - Enemy
+  - ScoreBoost
+  - ScoreBoost-B
+  - LoseBox
   layers:
   - Default
   - TransparentFX
@@ -44,4 +49,3 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
- master
