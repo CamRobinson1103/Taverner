@@ -42,14 +42,20 @@ public class ServeBehavior : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
+        //Checks if the collider is a ScoreBoost
         if (other.CompareTag("ScoreBoost"))
         {
+            //Adds points to the scoreboard
             _score.AddScore(5);
+            //Destroys the scoreboost
             Destroy(other.gameObject);
         }
+        //Checks if the collider is a ScoreBoost-B
         else if(other.CompareTag("ScoreBoost-B"))
         {
+            //Adds points to the scoreboard
             _score.AddScore(10);
+            //Destroys the scoreboost
             Destroy(other.gameObject);
         }
     }
