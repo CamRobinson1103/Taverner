@@ -22,34 +22,19 @@ public class TimerBehavior : MonoBehaviour
             }
             else
             {
-                Debug.Log("Time has run out!");
+                Debug.Log("Timer works");
                 timeRemaining = 0;
-                timerIsRunning = false;
                 gameObject.GetComponent<CustomerMovementBehavior>();
+                timerIsRunning = false;
             }
         }
     }
 
-    //private void OnTriggerEnter(Collider col)
-    //{
-    //    if (col.gameObject.CompareTag("Mug"))
-    //    {
-    //        timerIsRunning = true;
-    //    }
-
-    //    if (timerIsRunning)
-    //    {
-    //        if (timeRemaining > 0)
-    //        {
-    //            timeRemaining -= Time.deltaTime;
-    //        }
-    //        else
-    //        {
-    //            Debug.Log("Time has run out!");
-    //            timeRemaining = 0;
-    //            timerIsRunning = false;
-    //            col.gameObject.GetComponent<CustomerMovementBehavior>();
-    //        }
-    //    }
-    //}
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.CompareTag("Mug"))
+        {
+            timerIsRunning = true;
+        }
+    }
 }
