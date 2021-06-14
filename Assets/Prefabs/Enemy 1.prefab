@@ -60,9 +60,9 @@ GameObject:
   - component: {fileID: -4857552324882061348}
   - component: {fileID: 1721544285482808103}
   - component: {fileID: 1565094629446706550}
-  - component: {fileID: 3830660845715713256}
+  - component: {fileID: 363618588803768960}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -198,9 +198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 8744127673981257582}
-  newPosition: {x: 1, y: 1, z: 12}
+  newPosition: {x: 4, y: 1, z: 12}
   move: 3
---- !u!114 &3830660845715713256
+--- !u!114 &363618588803768960
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
