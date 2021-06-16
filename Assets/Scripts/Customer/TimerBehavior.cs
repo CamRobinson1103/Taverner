@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TimerBehavior : MonoBehaviour
 {
+    public float HSpeed = 2;
     public float timeRemaining = 3;
     public bool timerIsRunning = false;
 
@@ -24,8 +25,9 @@ public class TimerBehavior : MonoBehaviour
             {
                 Debug.Log("Timer works");
                 timeRemaining = 0;
-                gameObject.GetComponent<CustomerMovementBehavior>();
                 timerIsRunning = false;
+                transform.position -= new Vector3(0, 0, HSpeed) * Time.deltaTime;
+
             }
         }
     }
