@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
         i += direction;
         i = Mathf.Clamp(i, 0, 3);
         inputActions.transform.position = TeleportPoints[i].transform.position;
+        inputActions.transform.forward = TeleportPoints[i].transform.forward;
     }
 
     public void MovementSkipping(int direction)
