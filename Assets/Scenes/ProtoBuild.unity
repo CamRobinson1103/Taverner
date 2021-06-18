@@ -2263,7 +2263,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1353426860
 Transform:
   m_ObjectHideFlags: 0
@@ -2290,9 +2290,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 277d9ed0094443a4c80cec7631115568, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectSpawn: {fileID: 0}
+  _objectSpawn: {fileID: 95512004499806143, guid: d9ca9592fcd4db848927c98dd7c3e811,
+    type: 3}
   _nextspawnTime: 2
-  _spawnCount: 0
+  _spawnCount: 1
 --- !u!1 &1369276273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,7 +2310,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1369276274
 Transform:
   m_ObjectHideFlags: 0
@@ -2336,9 +2337,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 277d9ed0094443a4c80cec7631115568, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectSpawn: {fileID: 0}
+  _objectSpawn: {fileID: 1465645670446186094, guid: ee18d5b2c5832e04688798a35d9be634,
+    type: 3}
   _nextspawnTime: 2
-  _spawnCount: 0
+  _spawnCount: 1
 --- !u!1 &1385486478
 GameObject:
   m_ObjectHideFlags: 0
@@ -2602,7 +2604,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1463858449
 Transform:
   m_ObjectHideFlags: 0
