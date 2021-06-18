@@ -24,8 +24,8 @@ public class TimerBehavior : MonoBehaviour
             {
                 Debug.Log("Timer works");
                 timeRemaining = 0;
-                gameObject.GetComponent<CustomerMovementBehavior>();
                 timerIsRunning = false;
+                gameObject.GetComponent<CustomerMovementBehavior>();
             }
         }
     }
