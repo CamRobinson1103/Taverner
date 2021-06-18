@@ -80,7 +80,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""320b518b-d359-4d27-b9d4-f267b80fb5b7"",
-                    ""path"": ""<Keyboard>/w"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -91,7 +91,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""4f976603-121a-41ab-aa33-99ff8a1debdb"",
-                    ""path"": ""<Keyboard>/s"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
