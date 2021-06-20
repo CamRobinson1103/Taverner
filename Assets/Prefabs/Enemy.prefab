@@ -201,3 +201,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeRemaining: 2
   timerIsRunning: 0
+  HSpeed: 5

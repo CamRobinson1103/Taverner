@@ -6,6 +6,7 @@ public class TimerBehavior : MonoBehaviour
 {
     public float timeRemaining = 3;
     public bool timerIsRunning = false;
+    public float HSpeed = 2;
 
     private void Start()
     {
@@ -22,12 +23,16 @@ public class TimerBehavior : MonoBehaviour
             }
             else
             {
-                Debug.Log("Timer works");
                 timeRemaining = 0;
                 timerIsRunning = false;
-                gameObject.GetComponent<CustomerMovementBehavior>();
             }
+            if (timeRemaining == 0)
+            {
+                Debug.Log("Timer works");
+            }
+
         }
+     
     }
 
     private void OnTriggerEnter(Collider col)
@@ -35,6 +40,11 @@ public class TimerBehavior : MonoBehaviour
         if (col.gameObject.CompareTag("Mug"))
         {
             timerIsRunning = true;
+        }
+
+        if (timeRemaining == 0)
+        {
+            transform.position -= new Vector3(0, 0, HSpeed) * Time.deltaTime;
         }
     }
 }
