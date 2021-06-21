@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
-  newPosition: {x: 1, y: 1, z: 12}
+  newPosition: {x: 1, y: 1, z: 20}
   move: 3
 --- !u!114 &9052928694341210225
 MonoBehaviour:
