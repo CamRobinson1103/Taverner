@@ -32,6 +32,11 @@ PrefabInstance:
       propertyPath: HSpeed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3384938017423854391, guid: e759eb00ea3f8784fb997c7501eb66ac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 8653114086887817088, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_Name
