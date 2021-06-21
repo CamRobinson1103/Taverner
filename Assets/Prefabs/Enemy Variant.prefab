@@ -20,7 +20,7 @@ PrefabInstance:
     - target: {fileID: 1565094629446706550, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: newPosition.z
-      value: 12
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1565094629446706550, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
