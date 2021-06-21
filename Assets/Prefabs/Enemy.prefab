@@ -186,9 +186,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a941b01c9b30dc740832956f3a19084e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 0}
   newPosition: {x: 1, y: 1, z: 12}
-  move: 3
+  move: 1
 --- !u!114 &9052928694341210225
 MonoBehaviour:
   m_ObjectHideFlags: 0

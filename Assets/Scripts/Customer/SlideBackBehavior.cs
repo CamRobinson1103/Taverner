@@ -5,8 +5,6 @@ using UnityEngine;
 public class SlideBackBehavior : MonoBehaviour
 {
     [SerializeField]
-    private Transform _target;
-    [SerializeField]
     private Vector3 newPosition;
     public float move = 2;
     private bool isLerp = false;
