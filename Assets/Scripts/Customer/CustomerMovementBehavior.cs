@@ -14,7 +14,5 @@ public class CustomerMovementBehavior : MonoBehaviour
      {
         transform.position -= new Vector3(0, 0, HSpeed) * Time.deltaTime;
      }        
-
-    
 }
 
