@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896754155928950609, guid: e759eb00ea3f8784fb997c7501eb66ac,
+        type: 3}
+      propertyPath: m_TagString
+      value: ServePoint
+      objectReference: {fileID: 0}
     - target: {fileID: 1565094629446706550, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: newPosition.x
@@ -25,7 +30,7 @@ PrefabInstance:
     - target: {fileID: 1721544285482808103, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: HSpeed
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8653114086887817088, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
