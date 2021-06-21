@@ -35,7 +35,7 @@ public class CustomerMovementBehavior : MonoBehaviour
      void Move()
      {
         transform.position -= new Vector3(0, 0, HSpeed) * Time.deltaTime;
-     }
+     }        
 
     private void OnTriggerEnter(Collider col)
     {

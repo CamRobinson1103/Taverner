@@ -20,10 +20,10 @@ public class SlideBackBehavior : MonoBehaviour
     {
         transform.position = Vector3.Lerp(transform.position, newPosition, move * Time.deltaTime);
     }
-    
+
     private void OnTriggerEnter(Collider col)
     {
-        if(col.gameObject.CompareTag ("Mug"))
+        if (col.gameObject.CompareTag("Mug"))
         {
             isLerp = true;
         }
