@@ -5,29 +5,23 @@ using UnityEngine;
 public class TankBehavior : MonoBehaviour
 {
     public float HSpeed = 2;
-    public float timeRemaining = 3;
-    public bool timerIsRunning = false;
-   
+    public int hitsBeforeGone;
+    [SerializeField]
+    private Vector3 newPosition;
+    public float move = 2;
+    private bool isLerp = false;
     void Update()
     {
         Move();
-        if (timerIsRunning)
+
+        if(hitsBeforeGone <= 0)
         {
-            if (timeRemaining > 0)
-            {
-                timeRemaining -= Time.deltaTime;
-            }
-            else
-            {
-                Debug.Log("Timer works");
-                timeRemaining = 0;
-                timerIsRunning = false;
-            }
+            isLerp = true;
         }
 
-        if (timeRemaining == 0)
+        if (isLerp)
         {
-            Move();
+            PositionChange();
         }
     }
 
@@ -36,11 +30,16 @@ public class TankBehavior : MonoBehaviour
         transform.position -= new Vector3(0, 0, HSpeed) * Time.deltaTime;
     }
 
-    public void OnTriggerEnter(Collider col)
+    void PositionChange()
+    {
+        transform.position = Vector3.Lerp(transform.position, newPosition, move * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.CompareTag("Mug"))
         {
-            timerIsRunning = true;
+            hitsBeforeGone--;
         }
     }
 }
