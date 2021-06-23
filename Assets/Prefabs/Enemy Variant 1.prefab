@@ -10,27 +10,27 @@ PrefabInstance:
     - target: {fileID: 1565094629446706550, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: newPosition.x
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1565094629446706550, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: newPosition.z
-      value: -13
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 1721544285482808103, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: HSpeed
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 3384938017423854391, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3384938017423854391, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8653114086887817088, guid: e759eb00ea3f8784fb997c7501eb66ac,
         type: 3}
