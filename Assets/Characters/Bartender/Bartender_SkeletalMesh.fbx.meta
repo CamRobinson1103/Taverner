@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 796750f7d8082f142b728a9429acdb14
+guid: 36f4bd2ec45b4474fb96a706b19be1a1
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert15
+    second: {fileID: 2100000, guid: 3f9cf3b3d7f32de489dc5809aef38c65, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -67,11 +72,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - e15e8288e0938624d8969eab40041726
-  - 7ec49c158b26d1c4d9708e2474485638
-  - 25b62c5dcecc47547b31ce90e98c6bad
-  - 84572603100e0b44ba0eaf05fe0552df
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
