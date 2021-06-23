@@ -8,6 +8,7 @@ public class SpawnerBehavior : MonoBehaviour
     private GameObject _objectSpawn;
     [SerializeField]
     private float _nextspawnTime;
+    [SerializeField]
     private bool _canSpawn;
 
     //Starts up the Spawn
