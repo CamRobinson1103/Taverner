@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Mug
+  - CustomerNPC
+  - MovePoint
+  - KillPlane
+  - Enemy
+  - ScoreBoost
+  - ScoreBoost-B
   layers:
   - Default
   - TransparentFX
