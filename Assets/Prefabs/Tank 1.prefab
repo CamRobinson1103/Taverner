@@ -170,6 +170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HSpeed: -1
-  hitsBeforeGone: 1
+  hitsBeforeGone: 3
   newPosition: {x: 6.5, y: 1, z: -13}
   move: 1
