@@ -5,7 +5,9 @@ using UnityEngine;
 public class ScoreDropBehavior : MonoBehaviour
 {
     //Reference to the object that will be dropped
-    public GameObject boost;
+    //Temporarily commented out
+    //public GameObject boost;
+
     //The highest random number
     public int maxNumber;
     //The lowest random number
@@ -26,9 +28,9 @@ public class ScoreDropBehavior : MonoBehaviour
         if (other.CompareTag("Mug"))
         {
             //Checks if the random number is 2
-            if (rand == 2)
+            //if (rand == 2)
                 //If so, spawns a boost object
-                Instantiate(boost.gameObject, gameObject.transform.position, gameObject.transform.rotation);
+                //Instantiate(boost.gameObject, gameObject.transform.position, gameObject.transform.rotation);
 
             //Destroys the projectile
             Destroy(other.gameObject);
