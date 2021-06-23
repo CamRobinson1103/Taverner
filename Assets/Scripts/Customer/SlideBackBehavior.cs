@@ -5,8 +5,6 @@ using UnityEngine;
 public class SlideBackBehavior : MonoBehaviour
 {
     [SerializeField]
-    private Transform _target;
-    [SerializeField]
     private Vector3 newPosition;
     public float move = 2;
     private bool isLerp = false;
@@ -22,10 +20,10 @@ public class SlideBackBehavior : MonoBehaviour
     {
         transform.position = Vector3.Lerp(transform.position, newPosition, move * Time.deltaTime);
     }
-    
+
     private void OnTriggerEnter(Collider col)
     {
-        if(col.gameObject.CompareTag ("Mug"))
+        if (col.gameObject.CompareTag("Mug"))
         {
             isLerp = true;
         }
