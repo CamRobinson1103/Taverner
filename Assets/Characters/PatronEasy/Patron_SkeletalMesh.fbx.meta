@@ -1,0 +1,981 @@
+fileFormatVersion: 2
+guid: 4ac74cbaa1c276c4a99a71593c3e1413
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: DwarfPlayer_ROOTSHJnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Leg_HipSHJnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Leg_HipSHJnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Leg_KneeSHJnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Leg_KneeSHJnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Leg_AnkleSHJnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Leg_AnkleSHJnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_Spine_01SHJnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_Spine_02SHJnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_Neck_01SHJnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_Neck_02SHJnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Arm_ClavicleSHJnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Arm_ClavicleSHJnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Arm_ShoulderSHJnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Arm_ShoulderSHJnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Arm_ElbowSHJnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Arm_ElbowSHJnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Arm_WristSHJnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Arm_WristSHJnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Leg_ToeSHJnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Leg_ToeSHJnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_Head_JawSHJnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Thumb_01_01SHJnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Thumb_01_02SHJnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Thumb_01_03SHJnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_01_01SHJnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_01_02SHJnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_01_03SHJnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_02_01SHJnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_02_02SHJnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_02_03SHJnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_03_01SHJnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_03_02SHJnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_03_03SHJnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_04_01SHJnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_04_02SHJnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_L_Finger_04_03SHJnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Thumb_01_01SHJnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Thumb_01_02SHJnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Thumb_01_03SHJnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_01_01SHJnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_01_02SHJnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_01_03SHJnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_02_01SHJnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_02_02SHJnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_02_03SHJnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_03_01SHJnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_03_02SHJnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_03_03SHJnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_04_01SHJnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_04_02SHJnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_R_Finger_04_03SHJnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DwarfPlayer_Spine_03SHJnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Bartender_SkeletalMesh(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer
+      parentName: Bartender_SkeletalMesh(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_SHJntGrp
+      parentName: DwarfPlayer
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_ROOTSHJnt
+      parentName: DwarfPlayer_SHJntGrp
+      position: {x: 0, y: 0.54357797, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Spine_01SHJnt
+      parentName: DwarfPlayer_ROOTSHJnt
+      position: {x: -0.063877635, y: 7.277994e-10, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Spine_02SHJnt
+      parentName: DwarfPlayer_Spine_01SHJnt
+      position: {x: -0.06387763, y: 0.019865165, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Spine_03SHJnt
+      parentName: DwarfPlayer_Spine_02SHJnt
+      position: {x: -0.063877635, y: 0.012005045, z: 0}
+      rotation: {x: 0, y: -0, z: -6.617445e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Spine_04SHJnt
+      parentName: DwarfPlayer_Spine_03SHJnt
+      position: {x: -0.063877635, y: -0.008339057, z: 0}
+      rotation: {x: 0, y: 0, z: 6.617445e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Spine_TopSHJnt
+      parentName: DwarfPlayer_Spine_04SHJnt
+      position: {x: -0.063877635, y: -0.02353115, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Neck_01SHJnt
+      parentName: DwarfPlayer_Spine_TopSHJnt
+      position: {x: -0.042460375, y: -6.1062266e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Neck_02SHJnt
+      parentName: DwarfPlayer_Neck_01SHJnt
+      position: {x: -0.042460375, y: -9.860761e-34, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Neck_TopSHJnt
+      parentName: DwarfPlayer_Neck_02SHJnt
+      position: {x: -0.04246037, y: -2.7755574e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Head_TopSHJnt
+      parentName: DwarfPlayer_Neck_TopSHJnt
+      position: {x: -0.24201721, y: -9.860761e-34, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Eye_01SHJnt
+      parentName: DwarfPlayer_Head_TopSHJnt
+      position: {x: 0.16346365, y: -0.2023059, z: -0.03204189}
+      rotation: {x: 1.6653347e-16, y: -1.6653347e-16, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Eye_01SHJnt
+      parentName: DwarfPlayer_Head_TopSHJnt
+      position: {x: 0.16346365, y: -0.2023059, z: 0.03204189}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Head_JawSHJnt
+      parentName: DwarfPlayer_Neck_TopSHJnt
+      position: {x: -0.010601203, y: -0.07649334, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_Head_JawEndSHJnt
+      parentName: DwarfPlayer_Head_JawSHJnt
+      position: {x: -0.10789803, y: -0.08069317, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Arm_ClavicleSHJnt
+      parentName: DwarfPlayer_Spine_TopSHJnt
+      position: {x: -5.684342e-16, y: -8.881784e-18, z: -0.10632116}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Arm_ShoulderSHJnt
+      parentName: DwarfPlayer_L_Arm_ClavicleSHJnt
+      position: {x: -0.12997144, y: -8.5265126e-16, z: -7.6487896e-17}
+      rotation: {x: 0.22469921, y: 0.0041811466, z: 0.012803675, w: 0.9743351}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Arm_ElbowSHJnt
+      parentName: DwarfPlayer_L_Arm_ShoulderSHJnt
+      position: {x: -0.29098973, y: 1.4210854e-16, z: 0}
+      rotation: {x: -0.00012391804, y: 0.0330423, z: -0.0027264885, w: 0.9994503}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Arm_WristSHJnt
+      parentName: DwarfPlayer_L_Arm_ElbowSHJnt
+      position: {x: -0.23666815, y: 2.1316282e-16, z: 7.105427e-17}
+      rotation: {x: -0.26954097, y: -0.050238777, z: 0.10433705, w: 0.95600086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_01_01SHJnt
+      parentName: DwarfPlayer_L_Arm_WristSHJnt
+      position: {x: -0.10891059, y: 0.000037659043, z: 0.06390658}
+      rotation: {x: 0.023004001, y: 0.07387202, z: -0.05244835, w: 0.99562186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_01_02SHJnt
+      parentName: DwarfPlayer_L_Finger_01_01SHJnt
+      position: {x: -0.03204189, y: 5.684342e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_01_03SHJnt
+      parentName: DwarfPlayer_L_Finger_01_02SHJnt
+      position: {x: -0.03204189, y: 4.2632563e-16, z: -8.8817837e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_01_04SHJnt
+      parentName: DwarfPlayer_L_Finger_01_03SHJnt
+      position: {x: -0.03204189, y: 0, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_02_01SHJnt
+      parentName: DwarfPlayer_L_Arm_WristSHJnt
+      position: {x: -0.12709552, y: -0.000274879, z: 0.03705046}
+      rotation: {x: 0.02372923, y: 0.08206752, z: -0.06052763, w: 0.9945041}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_02_02SHJnt
+      parentName: DwarfPlayer_L_Finger_02_01SHJnt
+      position: {x: -0.03204189, y: 0, z: -5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_02_03SHJnt
+      parentName: DwarfPlayer_L_Finger_02_02SHJnt
+      position: {x: -0.03204189, y: 4.973799e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_02_04SHJnt
+      parentName: DwarfPlayer_L_Finger_02_03SHJnt
+      position: {x: -0.03204189, y: -4.973799e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_03_01SHJnt
+      parentName: DwarfPlayer_L_Arm_WristSHJnt
+      position: {x: -0.122740254, y: -0.0002000266, z: 0.012354421}
+      rotation: {x: 0.0134710325, y: 0.08666597, z: -0.061691657, w: 0.99423426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_03_02SHJnt
+      parentName: DwarfPlayer_L_Finger_03_01SHJnt
+      position: {x: -0.03204189, y: 9.947598e-16, z: 1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_03_03SHJnt
+      parentName: DwarfPlayer_L_Finger_03_02SHJnt
+      position: {x: -0.03204189, y: -7.105427e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_03_04SHJnt
+      parentName: DwarfPlayer_L_Finger_03_03SHJnt
+      position: {x: -0.03204189, y: 2.1316282e-16, z: -1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_04_01SHJnt
+      parentName: DwarfPlayer_L_Arm_WristSHJnt
+      position: {x: -0.11110177, y: -2.4843415e-12, z: -0.036047123}
+      rotation: {x: -0.00004836916, y: 0.06525983, z: 0.00068178406, w: 0.9978681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_04_02SHJnt
+      parentName: DwarfPlayer_L_Finger_04_01SHJnt
+      position: {x: -0.03204189, y: -2.842171e-16, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_04_03SHJnt
+      parentName: DwarfPlayer_L_Finger_04_02SHJnt
+      position: {x: -0.03204189, y: 0, z: -1.5543122e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Finger_04_04SHJnt
+      parentName: DwarfPlayer_L_Finger_04_03SHJnt
+      position: {x: -0.03204189, y: 3.5527135e-16, z: -7.5495166e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Thumb_01_01SHJnt
+      parentName: DwarfPlayer_L_Arm_WristSHJnt
+      position: {x: -0.03204189, y: -5.684342e-16, z: 0.079059884}
+      rotation: {x: 0, y: 0.46278036, z: -0, w: 0.886473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Thumb_01_02SHJnt
+      parentName: DwarfPlayer_L_Thumb_01_01SHJnt
+      position: {x: -0.03204189, y: 8.5265126e-16, z: 2.1316282e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Thumb_01_03SHJnt
+      parentName: DwarfPlayer_L_Thumb_01_02SHJnt
+      position: {x: -0.03204189, y: -4.973799e-16, z: 1.4210854e-16}
+      rotation: {x: -0.00000020329067, y: -0.030966505, z: -0.00000019017466, w: 0.9995204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Thumb_01_04SHJnt
+      parentName: DwarfPlayer_L_Thumb_01_03SHJnt
+      position: {x: -0.03204189, y: 1.4210854e-16, z: 3.5527135e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Arm_ClavicleSHJnt
+      parentName: DwarfPlayer_Spine_TopSHJnt
+      position: {x: -5.684342e-16, y: -8.881784e-18, z: 0.10632116}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Arm_ShoulderSHJnt
+      parentName: DwarfPlayer_R_Arm_ClavicleSHJnt
+      position: {x: 0.12997144, y: 0, z: 1.05272914e-16}
+      rotation: {x: 0.22469914, y: 0.004181117, z: 0.012803644, w: 0.97433513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Arm_ElbowSHJnt
+      parentName: DwarfPlayer_R_Arm_ShoulderSHJnt
+      position: {x: 0.29098973, y: 1.4210854e-16, z: 0}
+      rotation: {x: -0.00012384354, y: 0.033042368, z: -0.00272644, w: 0.9994502}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Arm_WristSHJnt
+      parentName: DwarfPlayer_R_Arm_ElbowSHJnt
+      position: {x: 0.23666815, y: -2.842171e-16, z: 1.0658141e-16}
+      rotation: {x: -0.26954097, y: -0.05023876, z: 0.1043371, w: 0.95600086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_01_01SHJnt
+      parentName: DwarfPlayer_R_Arm_WristSHJnt
+      position: {x: 0.10891059, y: -0.000037659043, z: -0.06390658}
+      rotation: {x: 0.023004001, y: 0.07387202, z: -0.05244835, w: 0.99562186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_01_02SHJnt
+      parentName: DwarfPlayer_R_Finger_01_01SHJnt
+      position: {x: 0.03204189, y: 2.842171e-16, z: 1.9539925e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_01_03SHJnt
+      parentName: DwarfPlayer_R_Finger_01_02SHJnt
+      position: {x: 0.03204189, y: 7.105427e-17, z: -1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_01_04SHJnt
+      parentName: DwarfPlayer_R_Finger_01_03SHJnt
+      position: {x: 0.03204189, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_02_01SHJnt
+      parentName: DwarfPlayer_R_Arm_WristSHJnt
+      position: {x: 0.12709552, y: 0.000274879, z: -0.03705046}
+      rotation: {x: 0.023729216, y: 0.08206757, z: -0.060527634, w: 0.994504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_02_02SHJnt
+      parentName: DwarfPlayer_R_Finger_02_01SHJnt
+      position: {x: 0.03204189, y: -8.5265126e-16, z: -1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_02_03SHJnt
+      parentName: DwarfPlayer_R_Finger_02_02SHJnt
+      position: {x: 0.03204189, y: 4.2632563e-16, z: 1.5987211e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_02_04SHJnt
+      parentName: DwarfPlayer_R_Finger_02_03SHJnt
+      position: {x: 0.03204189, y: -2.842171e-16, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_03_01SHJnt
+      parentName: DwarfPlayer_R_Arm_WristSHJnt
+      position: {x: 0.122740254, y: 0.0002000266, z: -0.012354421}
+      rotation: {x: 0.013471079, y: 0.08666616, z: -0.061691124, w: 0.9942342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_03_02SHJnt
+      parentName: DwarfPlayer_R_Finger_03_01SHJnt
+      position: {x: 0.03204189, y: 0, z: 1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_03_03SHJnt
+      parentName: DwarfPlayer_R_Finger_03_02SHJnt
+      position: {x: 0.03204189, y: 0, z: -1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_03_04SHJnt
+      parentName: DwarfPlayer_R_Finger_03_03SHJnt
+      position: {x: 0.03204189, y: 7.105427e-17, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_04_01SHJnt
+      parentName: DwarfPlayer_R_Arm_WristSHJnt
+      position: {x: 0.11110177, y: 2.4840574e-12, z: 0.036047123}
+      rotation: {x: -0.00004839896, y: 0.06525955, z: 0.00068191957, w: 0.9978681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_04_02SHJnt
+      parentName: DwarfPlayer_R_Finger_04_01SHJnt
+      position: {x: 0.03204189, y: 0, z: -4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_04_03SHJnt
+      parentName: DwarfPlayer_R_Finger_04_02SHJnt
+      position: {x: 0.03204189, y: 4.2632563e-16, z: -3.330669e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Finger_04_04SHJnt
+      parentName: DwarfPlayer_R_Finger_04_03SHJnt
+      position: {x: 0.03204189, y: -4.2632563e-16, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Thumb_01_01SHJnt
+      parentName: DwarfPlayer_R_Arm_WristSHJnt
+      position: {x: 0.03204189, y: 1.4210854e-16, z: -0.079059884}
+      rotation: {x: 0, y: 0.46278036, z: -0, w: 0.886473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Thumb_01_02SHJnt
+      parentName: DwarfPlayer_R_Thumb_01_01SHJnt
+      position: {x: 0.03204189, y: -1.4210854e-16, z: -2.1316282e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Thumb_01_03SHJnt
+      parentName: DwarfPlayer_R_Thumb_01_02SHJnt
+      position: {x: 0.03204189, y: 0, z: -5.684342e-16}
+      rotation: {x: -0.000000031333876, y: -0.030967765, z: -0.0000010669509, w: 0.9995204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Thumb_01_04SHJnt
+      parentName: DwarfPlayer_R_Thumb_01_03SHJnt
+      position: {x: 0.03204189, y: 2.842171e-16, z: 2.1316282e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Leg_HipSHJnt
+      parentName: DwarfPlayer_ROOTSHJnt
+      position: {x: 0.040688258, y: 8.929143e-19, z: -0.06674823}
+      rotation: {x: -0.05761602, y: 0.705424, z: -0.70475554, w: -0.04875506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Leg_KneeSHJnt
+      parentName: DwarfPlayer_L_Leg_HipSHJnt
+      position: {x: -0.212378, y: 1.7763568e-17, z: 2.3575585e-14}
+      rotation: {x: 0, y: -0.0000057490547, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Leg_AnkleSHJnt
+      parentName: DwarfPlayer_L_Leg_KneeSHJnt
+      position: {x: -0.212378, y: -2.3092638e-16, z: 2.3571145e-14}
+      rotation: {x: 0.00047305593, y: 0.006271383, z: 0.07521571, w: 0.99714744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Leg_BallSHJnt
+      parentName: DwarfPlayer_L_Leg_AnkleSHJnt
+      position: {x: -0.0683851, y: 0.0062616817, z: 0.078450866}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_L_Leg_ToeSHJnt
+      parentName: DwarfPlayer_L_Leg_BallSHJnt
+      position: {x: -0.14584984, y: 0.0021153365, z: 0.00005924825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Leg_HipSHJnt
+      parentName: DwarfPlayer_ROOTSHJnt
+      position: {x: 0.040688258, y: 2.0034581e-18, z: 0.06674823}
+      rotation: {x: -0.70542395, y: -0.05761641, z: -0.048754673, w: 0.70475554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Leg_KneeSHJnt
+      parentName: DwarfPlayer_R_Leg_HipSHJnt
+      position: {x: 0.212378, y: 1.7763568e-17, z: -3.8857805e-17}
+      rotation: {x: 0, y: -0.0000046649347, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Leg_AnkleSHJnt
+      parentName: DwarfPlayer_R_Leg_KneeSHJnt
+      position: {x: 0.212378, y: 1.0658141e-16, z: -4.5519144e-17}
+      rotation: {x: 0.0004730152, y: 0.0062708426, z: 0.07521573, w: 0.99714744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Leg_BallSHJnt
+      parentName: DwarfPlayer_R_Leg_AnkleSHJnt
+      position: {x: 0.0683851, y: -0.0062616817, z: -0.078450866}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DwarfPlayer_R_Leg_ToeSHJnt
+      parentName: DwarfPlayer_R_Leg_BallSHJnt
+      position: {x: 0.14584984, y: -0.0021153365, z: -0.00005924825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dwarf_Mesh
+      parentName: Bartender_SkeletalMesh(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyebrows_low
+      parentName: Dwarf_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperBody_low
+      parentName: Dwarf_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face_low
+      parentName: Dwarf_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair_low
+      parentName: Dwarf_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pants_low
+      parentName: Dwarf_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boots_low
+      parentName: Dwarf_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mustache_low
+      parentName: Dwarf_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Beard_low
+      parentName: Dwarf_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Mug
+      parentName: Dwarf_Mesh
+      position: {x: 0.38549986, y: 0.29127234, z: 0.08592187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Liquid_Mesh 1
+      parentName: R_Mug
+      position: {x: -0.38549986, y: -0.29127234, z: -0.08592187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foam_Mesh 1
+      parentName: R_Mug
+      position: {x: -0.38549986, y: -0.29127234, z: -0.08592187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mug_Mesh 1
+      parentName: R_Mug
+      position: {x: -0.38549986, y: -0.29127234, z: -0.08592187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Mug
+      parentName: Dwarf_Mesh
+      position: {x: -0.38549986, y: 0.29127234, z: 0.08592187}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Liquid_Mesh
+      parentName: L_Mug
+      position: {x: -0.38549986, y: -0.29127234, z: -0.08592187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foam_Mesh
+      parentName: L_Mug
+      position: {x: -0.38549986, y: -0.29127234, z: -0.08592187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mug_Mesh
+      parentName: L_Mug
+      position: {x: -0.38549986, y: -0.29127234, z: -0.08592187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 36f4bd2ec45b4474fb96a706b19be1a1,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
