@@ -19,11 +19,12 @@ public class ServeBehavior : MonoBehaviour
     private float shootSpeed;
     [SerializeField]
     private GameManagerBehavior _score;
+    //
+    private PlayerAnimationBehavior _playerAnimation;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        _playerAnimation = GetComponent<PlayerAnimationBehavior>();
     }
 
     public void Shoot()
@@ -37,6 +38,8 @@ public class ServeBehavior : MonoBehaviour
             ProjectileBehavior moveDrink = _drink.GetComponent<ProjectileBehavior>();
             //Sets the velocity to the server's forward scaled by the firerate
             moveDrink.Velocity = transform.forward * shootSpeed;
+            //
+            _playerAnimation.Shoot();
         }
     }
 
@@ -58,11 +61,5 @@ public class ServeBehavior : MonoBehaviour
             //Destroys the scoreboost
             Destroy(other.gameObject);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
