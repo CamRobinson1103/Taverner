@@ -8,6 +8,8 @@ public class PlayerAnimationBehavior : MonoBehaviour
     public Animator animator;
     //Reference to ServeBehavior
     public ServeBehavior serve;
+    //Reference to the CharacterController
+    public CharacterController controller;
 
     // Start is called before the first frame update
     void Start()
@@ -15,9 +17,15 @@ public class PlayerAnimationBehavior : MonoBehaviour
         serve = GetComponent<ServeBehavior>();
     }
 
+    public void Shoot()
+    {
+        Debug.Log("Throw");
+        animator.SetTrigger("Throw");
+    }
+
     // Update is called once per frame
     void Update()
     {
-        animator.SetTrigger("Throw");
+
     }
 }
