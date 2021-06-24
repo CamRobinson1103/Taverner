@@ -34,7 +34,7 @@
                 {
                     "name": "",
                     "id": "c464910e-aa58-4554-8f98-92aaf79273b3",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -67,7 +67,7 @@
                 {
                     "name": "positive",
                     "id": "320b518b-d359-4d27-b9d4-f267b80fb5b7",
-                    "path": "<Keyboard>/s",
+                    "path": "<Gamepad>/dpad/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -78,7 +78,7 @@
                 {
                     "name": "negative",
                     "id": "4f976603-121a-41ab-aa33-99ff8a1debdb",
-                    "path": "<Keyboard>/w",
+                    "path": "<Gamepad>/dpad/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -100,7 +100,7 @@
                 {
                     "name": "negative",
                     "id": "8a68b645-a259-40f6-a7cf-081355a50842",
-                    "path": "<Keyboard>/a",
+                    "path": "<Gamepad>/dpad/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -111,11 +111,77 @@
                 {
                     "name": "positive",
                     "id": "4a25c8b0-b916-4164-b1e3-0b96a5d74fbb",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "ef1a081b-59f3-4524-9f64-2cac498cc356",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipMovement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3b70f09b-d8ee-4335-ab13-47b9708ebd7e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e25e437e-5528-4fb9-9306-e7c8579b4ccd",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "SkipMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "f1e54450-e68c-4f60-afde-f289d2d13719",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "35d2fd00-620b-4ad9-95b5-72ee3a6594f8",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "ae756660-54ed-459d-ad96-4bde44085170",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }
