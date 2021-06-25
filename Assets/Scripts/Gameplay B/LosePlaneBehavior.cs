@@ -20,6 +20,7 @@ public class LosePlaneBehavior : MonoBehaviour
         {
             //If so removes a life from the life counter
             hud.RemoveLife(1);
+            Destroy(other.gameObject);
         }
     }
 

@@ -22,7 +22,7 @@ public class GameManagerBehavior : MonoBehaviour
         //Sets the score counter to 0 at start
         scoreCounter = 0;
         //Sets the life counter to be 3
-        livesCounter = 3;
+        livesCounter = 5;
     }
 
     public void AddScore(int multiplier)
