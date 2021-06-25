@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c529cca3b9b6e314bb8066bafadfa6fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HSpeed: -1
+  HSpeed: -0.5
   hitsBeforeGone: 2
   newPosition: {x: 9.13, y: -0.02, z: -20}
   move: 1
