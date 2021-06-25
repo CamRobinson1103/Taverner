@@ -8,8 +8,6 @@ public class PlayerAnimationBehavior : MonoBehaviour
     public Animator animator;
     //Reference to ServeBehavior
     public ServeBehavior serve;
-    //Reference to the CharacterController
-    public CharacterController controller;
 
     // Start is called before the first frame update
     void Start()
