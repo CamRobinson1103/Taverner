@@ -171,14 +171,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'DwarfPlayer_Spine_01SHJnt'\n\tTransform 'DwarfPlayer_Spine_03SHJnt'\n\tTransform
-    'DwarfPlayer_Spine_04SHJnt'\n\tTransform 'DwarfPlayer_ROOTSHJnt'\n\tTransform
-    'DwarfPlayer_Head_JawSHJnt'\n\tTransform 'DwarfPlayer_Spine_02SHJnt'\n\tTransform
-    'DwarfPlayer_Spine_TopSHJnt'\n\tTransform 'DwarfPlayer_Spine_01SHJnt'\n\tTransform
-    'DwarfPlayer_R_Arm_ElbowSHJnt'\n\tTransform 'DwarfPlayer_L_Leg_AnkleSHJnt'\n\tand
-    more ...\n\tFrom animation clip 'Idle'\n\tFrom animation clip 'Drinking'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -193,7 +186,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 0a7df0450efa85440b015271f5f15113, type: 2}
     - target: {fileID: 1112320267062649371, guid: 30c0f036f06903f42a1680097c81e0c0,
         type: 3}
       propertyPath: m_WarningMessage
