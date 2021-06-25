@@ -192,6 +192,16 @@ PrefabInstance:
       propertyPath: m_WarningMessage
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1112320267062649371, guid: 30c0f036f06903f42a1680097c81e0c0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174525269977980848, guid: 30c0f036f06903f42a1680097c81e0c0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4973994612118563683, guid: 30c0f036f06903f42a1680097c81e0c0,
         type: 3}
       propertyPath: m_LocalRotation.x
