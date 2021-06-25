@@ -19,7 +19,7 @@ public class ServeBehavior : MonoBehaviour
     private float shootSpeed;
     [SerializeField]
     private GameManagerBehavior _score;
-    //
+    [SerializeField]
     private PlayerAnimationBehavior _playerAnimation;
 
     private void Awake()
