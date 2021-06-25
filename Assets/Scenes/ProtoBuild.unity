@@ -2953,7 +2953,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1311232465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3027,7 +3027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _objectSpawn: {fileID: 8653114086887817088, guid: c74985278a3afdf4d86c156ffc5a5264,
     type: 3}
-  _nextspawnTime: 6
+  _nextspawnTime: 7
   _canSpawn: 1
 --- !u!1 &1369276273
 GameObject:
@@ -3074,7 +3074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _objectSpawn: {fileID: 1465645670446186094, guid: ee18d5b2c5832e04688798a35d9be634,
     type: 3}
-  _nextspawnTime: 2
+  _nextspawnTime: 3
   _canSpawn: 1
 --- !u!1001 &1377105347
 PrefabInstance:
@@ -4269,7 +4269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _objectSpawn: {fileID: 8653114086887817088, guid: 6bad257c35fb608429766d1cc9fd3fe6,
     type: 3}
-  _nextspawnTime: 6
+  _nextspawnTime: 7
   _canSpawn: 1
 --- !u!1001 &1481538813
 PrefabInstance:
@@ -4575,7 +4575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _objectSpawn: {fileID: 8653114086887817088, guid: e759eb00ea3f8784fb997c7501eb66ac,
     type: 3}
-  _nextspawnTime: 2
+  _nextspawnTime: 3
   _canSpawn: 1
 --- !u!1 &1521705039
 GameObject:
