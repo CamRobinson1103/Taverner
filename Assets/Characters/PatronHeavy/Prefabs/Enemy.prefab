@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newPosition: {x: 1, y: 1, z: 17}
-  move: 2
+  move: 1
 --- !u!1 &8653114086887817088
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newPosition: {x: 1, y: 1, z: 15}
-  move: 2
+  move: 1
 --- !u!114 &7290538177769780513
 MonoBehaviour:
   m_ObjectHideFlags: 0
