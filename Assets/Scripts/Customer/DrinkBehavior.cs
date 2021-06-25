@@ -11,8 +11,11 @@ public class DrinkBehavior : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
     }
-    public void ActivateDrinkTrigger()
+    private void OnTriggerEnter(Collider col)
     {
-        _animator.SetTrigger("Win");
+        if (col.gameObject.CompareTag("Mug"))
+        {
+            _animator.SetBool("Drinking", true);
+        }
     }
 }
